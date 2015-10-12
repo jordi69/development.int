@@ -39,7 +39,10 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                <a href="auth/login">Login</a>
+                <a href="auth/register">Register</a>
             </div>
+            
         </div>
     </body>
 </html>
