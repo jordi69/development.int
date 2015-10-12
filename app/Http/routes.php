@@ -17,6 +17,7 @@ Route::get('/', function () {
 Route::get('/home', function(){
 	return 'Homepage';
 });
+Route::get('user/{id}', 'UserController@show');
 
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
