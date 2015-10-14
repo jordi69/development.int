@@ -12,7 +12,17 @@
         Email
         <input type="email" name="email" value="{{ old('email') }}">
     </div>
+    <div>
+        Straatnaam
+        <input type="text" name="straatnaam" value="{{ old('straatnaam') }}">
+        Nummer
+        <input type="text" name="straatnummer" value="{{ old('straatnummer') }}">
+    </div>
 
+    <div>
+        Woonplaats
+        <input type="text" name="woonplaats" value="{{ old('woonplaats') }}">
+    </div>
     <div>
         Password
         <input type="password" name="password">

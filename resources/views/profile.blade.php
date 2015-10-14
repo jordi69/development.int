@@ -1,3 +1,5 @@
+@extends('master')
+@section('content')
 <h1>Profile page</h1>
 
 <div>
@@ -5,4 +7,4 @@
 	Email: {{$user->email }} <br>
 	Woonplaats: {{$user->woonplaats }} <br>
 </div>
-	
+@endsection
